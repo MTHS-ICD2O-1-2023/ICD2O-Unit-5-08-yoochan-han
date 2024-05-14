@@ -16,5 +16,5 @@ while(true) {
     count++
   }
 }
-document.getElementById("Answer").innerHTML = "The answer is " + left + ' and ' + count + "R"
+  document.getElementById("Answer").innerHTML = "The answer is " + count + ' and ' + left + "R"
 }
