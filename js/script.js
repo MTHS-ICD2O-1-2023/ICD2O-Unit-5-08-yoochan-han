@@ -4,17 +4,16 @@
 // Created on: May 2024
 // This file contains the JS functions for index.html
 function calculate(){
-let left = document.getElementById("get_number1").value
-const Number1 = document.getElementById("get_number2").value
+  let Number1 = document.getElementById("get_number1").value
+const Number2 = document.getElementById("get_number2").value
 let count = 0
-let answer
 while(true) {
-  if(left-Number1 < 0) {
+  if (Number1 - Number2 < 0) {
     break
   }else{
-    left -= Number1
+    Number1 -= Number2
     count++
   }
 }
-  document.getElementById("Answer").innerHTML = "The answer is " + count + ' and ' + left + "R"
+  document.getElementById("Answer").innerHTML = "The answer is " + count + ' and ' + Number1 + "R"
 }
