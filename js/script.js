@@ -9,7 +9,7 @@ const Number1 = document.getElementById("get_number2").value
 let count = 0
 let answer
 while(true) {
-  if(left-Number1 <= 0) {
+  if(left-Number1 < 0) {
     break
   }else{
     left -= Number1
